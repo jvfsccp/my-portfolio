@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+header {
+  width: 1850px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  padding: 10px;
+}
+
+header nav h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+header nav li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+header nav li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+header nav button {
+  width: 250px;
+  background-color: #540BAC;
+  padding: 10px;
+  border-radius: 22px;
+  border: none;
+}
+
+header nav button a {
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #FFF;
+}
+
+main {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #about-me {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.profile ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile li {
+  list-style: none;
+}
+
+.profile li i {
+  font-size: 30px;
+  padding: 10px;
+  transition: 0.3s ease all;
+}
+
+.profile li i:hover{
+  background-color: #540BAC;
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 600px;
+  height: 300px;
+}
+
+.description h1 {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.description p {
+  width: 420px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+.skills h1 {
+  margin-bottom: 30px;
+}
+.skills ul {
+  display: flex;
+  gap: 30px;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.skills ul li i {
+  font-size: 30px;
+}
+
+.skills ul li img {
+  margin-top: -12px;
+}
