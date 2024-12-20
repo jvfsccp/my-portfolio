@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
   }
 }
 
@@ -275,7 +276,7 @@ main #about-me {
   line-height: 20px;
   background-color: #1a1a1a;
   width: 30%;
-  height: 400px;
+  height: 320px;
   gap: 5px;
   box-shadow: #64646f33 0 7px 29px;
 }
